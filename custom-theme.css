@@ -1,0 +1,339 @@
+/* view configuration */
+:root { 
+
+  /* max width restriction of the layout */
+  --workspace-max-width: 1200px;
+
+  /* layout alignment instructions */
+  --workspace-align-margin: 0; 
+
+}
+
+/* design tokens */
+:root .custom-theme { 
+
+  --border-width-xs: 1px;
+  --border-width-sm: 2px;
+  --border-width-md: 3px;
+  --border-width-lg: 4px;
+  --border-width-xl: 6px;
+
+  --border-radius-xs: 1px;
+  --border-radius-sm: 2px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 8px;
+  --border-radius-xl: 16px;
+
+  --panel-width-3xs: 100px;
+  --panel-width-2xs: 150px;
+  --panel-width-xs: 200px;
+  --panel-width-sm: 250px;
+  --panel-width-md: 300px;
+  --panel-width-lg: 400px;
+  --panel-width-xl: 600px;
+  --panel-width-2xl: 800px;
+  --panel-width-3xl: 1200px;
+  --panel-width-4xl: 1600px;
+
+  --panel-height-3xs: 80px;
+  --panel-height-2xs: 100px;
+  --panel-height-xs: 120px;
+  --panel-height-sm: 180px;
+  --panel-height-md: 200px;
+  --panel-height-lg: 280px;
+  --panel-height-xl: 400px;
+  --panel-height-2xl: 600px;
+  --panel-height-3xl: 800px;
+  --panel-height-4xl: 1000px;
+
+  --shadow-md: rgba(99, 99, 99, 0.5) 0px 2px 4px 0px;
+
+  --padding-2xs: 1px;
+  --padding-xs: 2px;
+  --padding-sm: 4px;
+  --padding-md: 8px;
+  --padding-lg: 12px;
+  --padding-xl: 16px;
+  --padding-2xl: 24px;
+  --padding-3xl: 32px;
+  --padding-4xl: 48px;
+
+  --margin-4xs: 1px;
+  --margin-3xs: 2px;
+  --margin-2xs: 4px;
+  --margin-xs: 8px;
+  --margin-sm: 12px;
+  --margin-md: 16px;
+  --margin-lg: 24px;
+  --margin-xl: 32px;
+  --margin-2xl: 48px;
+  --margin-3xl: 64px;
+  --margin-4xl: 96px;
+
+  --line-height-3xs: 10px;
+  --line-height-2xs: 12px;
+  --line-height-xs: 14px;
+  --line-height-sm: 18px;
+  --line-height-md: 20px;
+  --line-height-lg: 26px;
+  --line-height-xl: 30px;
+  --line-height-2xl: 40px;
+  --line-height-3xl: 60px;
+  --line-height-4xl: 80px;
+
+  --font-size-3xs: 8px;
+  --font-size-2xs: 10px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 48px;
+  --font-size-4xl: 64px;
+
+  --size-4xs: 4px;
+  --size-3xs: 8px;
+  --size-2xs: 12px;
+  --size-xs: 16px;
+  --size-sm: 24px;
+  --size-md: 32px;
+  --size-lg: 48px;
+  --size-xl: 64px;
+  --size-2xl: 96px;
+  --size-3xl: 128px;
+  --size-4xl: 160px;
+
+}
+
+/* palette */
+:root .custom-theme {
+
+  --color-neutral-100: #ffffff;
+  --color-neutral-90: #e7e7e7;
+  --color-neutral-80: #d0d0d0;
+  --color-neutral-70: #b8b8b8;
+  --color-neutral-60: #a0a0a0;
+  --color-neutral-50: #888888;
+  --color-neutral-40: #6d6d6d;
+  --color-neutral-30: #525252;
+  --color-neutral-20: #363636;
+  --color-neutral-10: #1b1b1b;
+  --color-neutral-00: #000000;
+
+  --color-primary-100: #ffffff;
+  --color-primary-90: #bdced9;
+  --color-primary-80: #8caabd;
+  --color-primary-70: #7194a9;
+  --color-primary-60: #4b6e85;
+  --color-primary-50: #34586e;
+  --color-primary-40: #1f4055;
+  --color-primary-30: #0f2c3e;
+  --color-primary-20: #061c2b;
+  --color-primary-10: #01111b;
+  --color-primary-00: #000000;
+
+  --color-secondary-100: #ffffff;
+  --color-secondary-90: #f1e6d4;
+  --color-secondary-80: #f4dcb6;
+  --color-secondary-70: #eece9a;
+  --color-secondary-60: #e8bc76;
+  --color-secondary-50: #d09c48;
+  --color-secondary-40: #9d712a;
+  --color-secondary-30: #714e15;
+  --color-secondary-20: #563a0d;
+  --color-secondary-10: #342205;
+  --color-secondary-00: #000000;
+
+  --color-tertiary-100: #ffffff;
+  --color-tertiary-90: #ccecfb;
+  --color-tertiary-80: #80d7ff;
+  --color-tertiary-70: #4fc5fc;
+  --color-tertiary-60: #29bafd;
+  --color-tertiary-50: #00a1eb;
+  --color-tertiary-40: #0284c1;
+  --color-tertiary-30: #005d87;
+  --color-tertiary-20: #014463;
+  --color-tertiary-10: #00202f;
+  --color-tertiary-00: #000000;
+  
+  --color-info-100: #ffffff;
+  --color-info-90: #c3e6f1;
+  --color-info-80: #86d8f1;
+  --color-info-70: #5ecbec;
+  --color-info-60: #39a9cc;
+  --color-info-50: #1587aa;
+  --color-info-40: #0c6a87;
+  --color-info-30: #05566e;
+  --color-info-20: #023d4f;
+  --color-info-10: #001d25;
+  --color-info-00: #000000;
+
+  --color-warning-100: #ffffff;
+  --color-warning-90: #fffbd7;
+  --color-warning-80: #fff7b1;
+  --color-warning-70: #fef181;
+  --color-warning-60: rgb(255, 237, 74);
+  --color-warning-50: #ffe810;
+  --color-warning-40: #c8b50a;
+  --color-warning-30: #a99907;
+  --color-warning-20: #7e7204;
+  --color-warning-10: #514904;
+  --color-warning-00: #000000;
+
+  --color-success-100: #ffffff;
+  --color-success-90: #e4f4cc;
+  --color-success-80: #cae999;
+  --color-success-70: #afde66;
+  --color-success-60: #95d333;
+  --color-success-50: #7ac800;
+  --color-success-40: #62a000;
+  --color-success-30: #497800;
+  --color-success-20: #315000;
+  --color-success-10: #182800;
+  --color-success-00: #000000;
+
+  --color-error-100: #ffffff;
+  --color-error-90: #fad3d6;
+  --color-error-80: #f5a8ad;
+  --color-error-70: #f07c83;
+  --color-error-60: #eb515a;
+  --color-error-50: #e62531;
+  --color-error-40: #b81e27;
+  --color-error-30: #8a161d;
+  --color-error-20: #5c0f14;
+  --color-error-10: #2e070a;
+  --color-error-00: #000000;
+
+}
+
+/* fast-design override */
+:root .custom-theme {
+
+  --fill-color: var(--color-neutral-100);
+
+  --neutral-fill-rest: var(--color-neutral-20);
+  --neutral-fill-hover: var(--color-neutral-40);
+  --neutral-fill-active: var(--color-neutral-60);
+  --neutral-fill-focus: var(--color-neutral-60);
+
+  --neutral-fill-input-rest: var(--color-neutral-80);
+  --neutral-fill-input-hover: var(--color-neutral-80);
+  --neutral-fill-input-active: var(--color-neutral-80);
+  --neutral-fill-input-focus: var(--color-neutral-80);
+
+  --neutral-foreground-rest: var(--color-neutral-10);
+  --neutral-foreground-hover: var(--color-neutral-20);
+  --neutral-foreground-active: var(--color-neutral-20);
+  --neutral-foreground-focus: #var(--color-neutral-20);
+
+  --accent-fill-rest: var(--color-primary-50);
+  --accent-fill-hover: var(--color-primary-40);
+  --accent-fill-active: var(--color-primary-60);
+  --accent-fill-focus: var(--color-primary-60);
+
+  --accent-foreground-rest: var(--color-primary-100);
+  --accent-foreground-hover: var(--color-primary-100);
+  --accent-foreground-active: var(--color-primary-100);
+  --accent-foreground-focus: #var(--color-primary-100);
+
+}
+
+/* mock theme styles */
+:root .custom-theme { 
+
+  --default-background: var(--color-neutral-100);
+  --default-foreground: var(--color-neutral-20);
+  --default-font-size: var(--font-size-md);
+  --default-line-height: var(--line-height-md);
+  --default-font-family: Arial, Helvetica, sans-serif;
+  --default-border-color: var(--color-neutral-90);
+  --default-border-width: var(--border-width-md);
+
+  --h1-font-size: var(--font-size-xl); 
+  --h1-line-height: var(--line-height-xl);
+  --h1-margin: 0;
+  --h2-font-size: var(--font-size-lg); 
+  --h2-line-height: var(--line-height-lg);
+  --h2-margin: 0;
+  --h3-font-size: var(--font-size-md); 
+  --h3-line-height: var(--line-height-md);
+  --h3-margin: 0;
+  --h4-font-size: var(--font-size-sm); 
+  --h4-line-height: var(--line-height-sm);
+  --h4-margin: 0;
+  --h5-font-size: var(--font-size-xs); 
+  --h5-line-height: var(--line-height-xs);
+  --h5-margin: 0;
+  --h6-font-size: var(--font-size-2xs); 
+  --h6-line-height: var(--line-height-2xs);
+  --h6-margin: 0;
+  --sub-font-size: var(--font-size-xs); 
+  --sub-line-height: var(--line-height-xs);
+  --sub-margin: 0;
+
+  --button-background-color: var(--color-neutral-30);
+  --button-foreground-color: var(--color-neutral-100);
+  --button-padding: var(--padding-lg);
+  --button-border-radius: var(--border-radius-md);
+  --button-border-color: var(--color-neutral-70);
+  --button-hover-background-color: var(--color-neutral-40);
+  --button-disabled-background-color: var(--color-neutral-80);
+  --button-disabled-foreground-color: var(--color-neutral-100);
+
+  --button-neutral-background-color: rgba(0,0,0,0);
+  --button-neutral-foreground-color: var(--color-neutral-20);
+  --button-neutral-hover-background-color: rgba(0,0,0,0.05);
+
+  --button-primary-background-color: var(--color-primary-50);
+  --button-primary-color: var(--color-primary-100);
+  --button-primary-hover-background-color: var(--color-primary-60);
+
+  --button-secondary-background-color: var(--color-secondary-50);
+  --button-secondary-color: var(--color-secondary-100);
+  --button-secondary-hover-background-color: var(--color-secondary-60);
+
+  --button-tertiary-background-color: var(--color-tertiary-50);
+  --button-tertiary-color: var(--color-tertiary-100);
+  --button-tertiary-hover-background-color: var(--color-tertiary-60);
+
+  --info-border-color: var(--color-info-50);
+  --info-background-color: var(--color-info-90);
+  --info-foreground-color: var(--color-info-40);
+
+  --success-border-color: var(--color-success-50);
+  --success-background-color: var(--color-success-90);
+  --success-foreground-color: var(--color-success-40);
+
+  --warning-border-color: var(--color-warning-50);
+  --warning-background-color: var(--color-warning-90);
+  --warning-foreground-color: var(--color-warning-40);
+
+  --error-border-color: var(--color-error-50);
+  --error-background-color: var(--color-error-90);
+  --error-foreground-color: var(--color-error-40);
+
+}
+
+
+/* mock component styles */
+:root .custom-theme { 
+
+  --header-background-color: var(--color-primary-60);
+  --header-foreground-color: var(--color-neutral-100);
+
+  --footer-background-color: var(--color-primary-60);
+  --footer-foreground-color: var(--color-neutral-100);
+
+  --menu-background-color: var(--color-primary-90);
+  --menu-foreground-color: var(--color-neutral-00);
+
+  --menu-item-children-background: rgba(255, 255, 255, 0.5);
+  --menu-item-active-color: var(--color-secondary-50);
+  --menu-item-active-background: rgba(255, 255, 255);
+  
+  --layout-menu-maximized-width: var(--panel-width-xs);
+  --layout-menu-minimized-width: 48px;
+
+}
+
